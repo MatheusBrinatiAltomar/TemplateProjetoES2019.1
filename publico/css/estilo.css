@@ -1,0 +1,28 @@
+body {
+
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+    color: #111;
+    padding-left: 30px;
+}
+
+body h1 {
+    color: red;
+}
+
+footer {
+    color: blue;
+    border-block-start: #111;
+}
+
+header {
+    color: green;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
