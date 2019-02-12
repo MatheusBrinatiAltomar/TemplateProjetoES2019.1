@@ -22,6 +22,21 @@ function _defineProperties(target, props) {
   }
 }
 
+
+$(document).ready(function() {
+/* show lightbox when clicking a thumbnail */
+  $('a.thumb').click(function(event){
+    event.preventDefault();
+    var content = $('.modal-body');
+    content.empty();
+      var title = $(this).attr("title");
+      $('.modal-title').html(title);        
+      content.html($(this).html());
+      $(".modal-profile").modal({show:true});
+  });
+
+});
+
 function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);

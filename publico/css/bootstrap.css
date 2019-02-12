@@ -35,6 +35,69 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
+/* Bootstrap Lightbox using Modal */
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+#gridview {
+  text-align:center; 
+}
+
+div.image {
+   margin: 10px;
+   display: inline-block;
+}
+
+div.image img {
+   width: 100%;
+   height: auto;
+   border: 1px solid #ccc;
+}
+
+div.image img:hover {
+   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.32), 0 0 0 0px rgba(0,0,0,0.16);
+}
+
+.heading{    
+   padding: 10px 10px;
+   border-radius: 2px;
+   color: #FFF;
+   background: #6aadf1;
+   margin-bottom:10px;
+   font-size: 1.5em;
+}
+#grid{
+   margin-bottom:30px;
+}
+
+/* Responsive Styles */
+
+@media screen and (min-width: 1224px) {
+   div.image {
+       width: 300px;
+   }
+}
+
+@media screen and (min-width: 1044px) and (max-width: 1224px) {
+   div.image {
+       width: 250px;
+   }
+}
+
+@media screen and (min-width: 845px) and (max-width: 1044px) {
+   div.image {
+       width: 200px;
+   }
+}
+
 *,
 *::before,
 *::after {
@@ -608,6 +671,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   margin-right: auto;
   margin-left: auto;
 }

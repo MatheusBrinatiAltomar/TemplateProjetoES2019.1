@@ -1,18 +1,18 @@
 
-<!-- Footer -->
+<!-- Rodapé -->
 <footer class="page-footer font-small mdb-color pt-4">
 
-    <!-- Footer Links -->
+    <!-- Links do Rodapé -->
     <div class="container text-center text-md-left">
 
-      <!-- Footer links -->
+      <!-- Links do Rodapé -->
       <div class="row text-center text-md-left mt-3 pb-3">
 
         <!-- Coluna no Grid -->
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-          <p>Aqui você pode usar linhas e colunas para organizar seu rodapé. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Lojão do Zé</h6>
+          <p>Aqui você pode usar linhas e colunas para organizar seu rodapé.</p> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <!-- Coluna no Grid -->
 
@@ -20,7 +20,7 @@
 
         <!-- Coluna no Grid -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
           <p>
             <a href="#!">MDBootstrap</a>
           </p>
@@ -73,7 +73,7 @@
         <!-- Coluna no Grid -->
 
       </div>
-      <!-- Footer links -->
+      <!-- Links do Rodapé -->
 
       <hr>
 
@@ -83,7 +83,7 @@
         <!-- Coluna no Grid -->
         <div class="col-md-7 col-lg-8">
 
-          <!--Copyright-->
+          <!--Direitos Autorais-->
           <p class="text-center text-md-left">© 2018 Copyright:
             <a href="https://mdbootstrap.com/education/bootstrap/">
               <strong> MDBootstrap.com</strong>
@@ -96,7 +96,7 @@
         <!-- Coluna no Grid -->
         <div class="col-md-5 col-lg-4 ml-lg-0">
 
-          <!-- Social buttons -->
+          <!-- Botões de Rede Social -->
           <div class="text-center text-md-right">
             <ul class="list-unstyled list-inline">
               <li class="list-inline-item">
@@ -129,7 +129,7 @@
       <!-- Linha no Grid -->
 
     </div>
-    <!-- Footer Links -->
+    <!-- Links do Rodapé -->
 
   </footer>
-  <!-- Footer -->
+  <!-- Rodapé -->
