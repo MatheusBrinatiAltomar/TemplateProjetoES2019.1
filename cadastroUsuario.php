@@ -141,6 +141,7 @@
         }
         else
         {
+            die(mysqli_error($conexao));
             ?>
             <div class="alert alert-warning">Falha ao cadastrar usuário!</div>
             <?php
