@@ -47,9 +47,13 @@
             </div>
         </div>
         <div class="form-row">
-            <div class="form-group col-md-10">
+            <div class="form-group col-md-8">
             <label for="inputEmail4">Nome</label>
             <input type="name" name="nome" class="form-control" id="inputNome4" placeholder="Nome">
+            </div>
+            <div class="form-group col-md-2">
+            <label for="inputPassword4">Telefone</label>
+            <input type="text" name="telefone" class="form-control" id="inputTelefone4" placeholder="(11)1111-1111" onkeypress="mascara(this, '## ####-####')"  maxlength="12">
             </div>
             <div class="form-group col-md-2">
             <label for="inputPassword4">CPF</label>
@@ -123,6 +127,7 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
         $nome = $_POST['nome'];
+        $telefone = $_POST['telefone'];
         $cpf = $_POST['cpf'];
         $endereco = $_POST['endereco'];
         $complemento = $_POST['complemento'];
@@ -130,7 +135,7 @@
         $estado = $_POST['estado'];
         $cep = $_POST['cep'];
 
-        $sql = "insert into usuarios (email,senha,nome,cpf,endereco,complemento,cidade,estado,cep) values ('$email','$senha','$nome','$cpf','$endereco','$complemento','$cidade','$estado','$cep')";
+        $sql = "insert into usuarios (email,senha,nome,telefone,cpf,endereco,complemento,cidade,estado,cep) values ('$email','$senha','$nome','$telefone','$cpf','$endereco','$complemento','$cidade','$estado','$cep')";
         $salvar = mysqli_query($conexao,$sql);/* Escreve os dados no banco */
 
         if($salvar)
